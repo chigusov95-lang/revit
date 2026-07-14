@@ -46,7 +46,7 @@
         </Style>
 
         <Style x:Key="AccentButtonStyle" TargetType="Button">
-            <Setter Property="Background" Value="#2F6FED"/>
+            <Setter Property="Background" Value="#E67E22"/>
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="FontWeight" Value="SemiBold"/>
@@ -63,10 +63,10 @@
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter TargetName="ButtonBorder" Property="Background" Value="#255BC4"/>
+                                <Setter TargetName="ButtonBorder" Property="Background" Value="#D35400"/>
                             </Trigger>
                             <Trigger Property="IsPressed" Value="True">
-                                <Setter TargetName="ButtonBorder" Property="Background" Value="#1E4A9E"/>
+                                <Setter TargetName="ButtonBorder" Property="Background" Value="#BA4A00"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
